@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*.ts","srv/src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

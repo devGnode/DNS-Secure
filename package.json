@@ -1,0 +1,34 @@
+{
+  "name": "dns-secure",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Maroder - <devgnode@gmail.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 12.14.1"
+  },
+  "scripts": {
+    "compile:prod": "tsc --outDir ./lib",
+    "tests": "ts-node ./src/Test2.ts",
+    "testA": "ts-node ./srv/src/Test.ts",
+    "server": "ts-node srv/src/srv.ts"
+  },
+  "keywords": [
+    "structure",
+    "binary",
+    "read binary",
+    "cpp"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/typescript": "^2.0.0",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/node-rsa": "^1.1.0",
+    "lib-utils-ts": "^2.0.0-stable",
+    "logger20js-ts": "^2.0.0-stable",
+    "node-rsa": "^1.1.1",
+    "struct": "../struct"
+  }
+}
