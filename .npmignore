@@ -1,0 +1,7 @@
+src/
+srv/
+integration/
+cache/
+node_modules/
+old/
+Test/
